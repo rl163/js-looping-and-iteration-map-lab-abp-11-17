@@ -11,7 +11,7 @@ function nameToAttributes(names){
   names.map(function(name){
     //name 'bobby smith'
     let fName = name.split(" ")[0];
-    let lName = name.split(" ")[1]
+    let lName = name.split(" ")[1];
     return {firstName: fName, lastName: lName}
     // {firstName: 'Bobby', lastName: 'Smith'}
   })
