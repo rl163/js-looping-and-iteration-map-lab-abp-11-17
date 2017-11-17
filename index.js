@@ -4,5 +4,3 @@ function lowerCaseDrivers(array){
     return e.tolowercase()
   }
 }
-
-function 
